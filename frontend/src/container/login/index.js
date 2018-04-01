@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+﻿import React, { Component } from 'react'
 import {FormGroup, ControlLabel, FormControl, Button} from 'react-bootstrap'
 import Fetch from './../../utils/fetch'
 
@@ -43,7 +43,7 @@ class Login extends Component {
         alert.error('Usuário ou senha inválidos. * Utilize admin e senha 12345')
       }
     })
-    .catch((erro) => alert.error('Usuário ou senha inválidos. * Utilize admin e senha 12345'))
+    .catch((erro) => alert.error('Usuário ou senha inválidos.'))
   }
 
   estatisticas = () =>{
